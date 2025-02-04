@@ -1,0 +1,39 @@
+1.Git
+    J'ai initialisé un dépôt Git dans le dossier de mon portfolio avec :
+    git init
+    Puis, j'ai ajouté tous les fichiers et effectué un commit avec le message "Portfolio initialisation" :
+    git add .
+    git commit -m "Portfolio initialisation"
+
+
+2.Github
+Je me suis fait aider par Omar 
+    je me suis aider avec chatgtp. Donc J'ai créé un dépôt vide sur GitHub et l'ai lié à mon dépôt local avec :
+    git remote add origin https://github.com/VOTRE-USERNAME/portfolio.git
+    git branch -M main
+    git push -u origin main
+    Après vérification sur GitHub, tous les fichiers du portfolio étaient bien présents avec le commit d'initialisation.
+
+3.Collaborez!
+J'ai utiliser chatgtp
+    Mon binôme m’a donné les droits d’accès à son repository via les paramètres GitHub.
+    J’ai cloné son dépôt avec : 
+    git clone https://github.com/USERNAME-DU-BINOME/portfolio.git
+    cd portfolio
+    J’ai créé une nouvelle branche documentation et je me suis placé dessus :
+    git checkout -b documentation
+    J’ai ajouté un fichier README.md contenant :
+    # Portfolio
+
+    Ce projet contient le code source du portfolio de Bercan 
+    
+    J’ai ajouté et commit le fichier
+    git add README.md
+    git commit -m "Ajout du README"
+    J’ai poussé la branche documentation sur GitHub :
+    git push origin documentation
+    Sur GitHub, j’ai vérifié que la branche était bien créée et affichait le README.md.
+    J’ai créé une Pull Request pour demander la fusion avec la branche main.
+    Mon binôme a validé et fusionné la PR, laissant la branche documentation visible.
+
+
