@@ -1,0 +1,21 @@
+/* Style des tags */
+.tag {
+    display: inline-block;
+    background-color: #007BFF; /* Couleur bleu */
+    color: white;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 15px; /* Bordures arrondies */
+    text-align: center;
+}
+
+.tag:hover {
+    background-color: #0056b3; /* Couleur plus foncée au survol */
+}
+
+/* Centrer la section */
+.me-contacter {
+    text-align: center;
+    margin-top: 20px;
+}

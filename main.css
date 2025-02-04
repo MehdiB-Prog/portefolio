@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "DM Serif Text", serif;
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+#centrage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://img.freepik.com/vecteurs-libre/fond-cicuit-imprime-au-neon_23-2148335792.jpg?t=st=1738069193~exp=1738072793~hmac=0b08a393a8b59b417045615c5ee972de759d69a126013f3d1a1f2dbda3a76e23&w=1060');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
+.intro {
+    position : absolute;
+    margin-top: 10%;
+  font-size: 60px;
+}
+
+.intro1 {
+  font-size: 23px;
+}
+
+#propos {
+  font-family: "Chakra Petch", serif;
+  font-style: normal;
+  padding-top: 10px; 
+  text-align: center;
+  margin-top: 20px;
+}
+
+h4 {
+    margin-top: 10px;
+    text-align: center;
+  font-size: 3em;
+}
+
+h5 {
+  font-size: 1.3em;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.decouvrir {
+  margin-top: 100px;
+  text-align: center;
+  font-size: large;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Plus de place pour chaque boîte */
+  gap: 75px; /* Esp15ement entre les boîtes */
+  justify-items: center; /* Centre les boîtes horizontalement */
+  padding: 50px;
+  margin-top: 50px;
+}
+
+.box {
+  width: 200px; /* Agrandir la largeur des boîtes */
+  height: 100px; /* Agrandir la hauteur des boîtes */
+  background: hsl(150, 2%, 24%);
+  color: rgb(237, 237, 237);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* Agrandir la police du texte */
+  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+  text-decoration: none;
+  text-align: center;
+  padding: 30px;
+}
+
+.box:hover {
+  transform: scale(1.1) rotate(3deg);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+
+
